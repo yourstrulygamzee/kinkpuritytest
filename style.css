@@ -11,6 +11,15 @@ img {
     width: auto;
 }
 
+.socials-icon {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    max-width: none;
+    vertical-align: -0.15em;
+    margin-left: 0.2em;
+}
+
 .button {
     justify-content: center;
     padding: 10px 20px;
@@ -77,6 +86,10 @@ h1 {
 @media (max-width: 768px) {
     img {
         max-width: 100%; /* Ensures images donâ€™t overflow */
+    }
+
+    .socials-icon {
+        max-width: none;
     }
 
     .container {
